@@ -1,0 +1,120 @@
+html {
+    font-family: 'Montserrat', sans-serif, Arial, Helvetica;
+}
+
+body {
+    margin: 0px;
+    background-color:antiquewhite
+}
+
+header {
+    background-color: darkslategrey;
+    padding: 3rem 2rem;
+    /* width: */
+    /* font-size: 2rem; */
+    /* color: #efefef; */ 
+    /* text-align: center; */
+}
+
+h1 {
+        padding: 3rem 2rem;
+    font-size: 2rem;
+    color: #efefef;
+    /* max-height: 4rem; */
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 2rem 0rem;
+}
+.cursos {
+width: 600px;
+margin: 0 auto;
+list-style-type: decimal;
+/* text-align: justify; */
+}
+
+.mallasanpa th,td {
+    /* margin: 0 au; */
+    border: solid black 1px;
+    border-collapse: collapse;
+    font-size: 0.55rem;
+    text-align: center;
+    padding: 0px 4px;
+}
+
+.mallasanpa th {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.mallasanpa tr {
+    /* background-color: darkkhaki; */
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+.mallasanpa {
+    margin: 0 auto;
+    padding: 0 0 2.5rem 0;
+}
+
+a:link {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkslategrey;
+}
+
+a:hover {
+    color: darkslategrey;
+    /* background-color: darkslategrey; */
+}
+
+a:active {
+    color: darkgoldenrod;
+    /* background-color: darkslategrey; */
+}
+
+.formacion, .intereses, .contacto {
+    background-color: #efefef;
+    margin: 0 auto 2.5rem auto;
+    width: 800px;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.compañeros {
+    background-color: #efefef;
+    margin: 0 auto 2.5rem auto;
+    width: 800px;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.5);
+    display: table;
+    clear: both;
+}
+
+.mitadder, .mitadizq {
+    float: left;
+    background-color: #efefef;
+}
+
+footer {
+    background-color: darkslategrey;
+    padding: 2rem;
+    color: #efefef;
+}
+
+a.volver {
+    color: #efefef;
+    float: right;
+}
